@@ -1,0 +1,20 @@
+### make_dataset.py
+Wrote 43 rows to device_telemetry.csv
+
+### section2_summary.py
+Device       Records    Avg Temp    Errors
+------------------------------------------
+DEV_A              8       67.44         0
+DEV_C              9       64.34         0
+DEV_D              9       58.83         2
+DEV_E              8       75.15         1
+
+Saved 4 devices to summary.json
+
+### section3_chart.py
+Chart saved to avg_temperature_chart.png
+
+### unit tests (Section 1 tests will pass once clean_readings is written)
+Ran 16 tests in 0.511s
+
+FAILED (failures=3)
